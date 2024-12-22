@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
 
 // const CLIENT_ID =
-//   "163172311489-9lct32qhak02eiv7otjj0ur8s7kj4uak.apps.googleusercontent.com";
-const CLIENT_ID =
-  "163172311489-8r0v40o3vqm0cnvkjdgtt143vq90sp8n.apps.googleusercontent.com";
+//   "=============<CLIENT_id>============";
+const CLIENT_ID = "=============<CLIENT_id>============";
 
 const GoogleLoginComponent = ({ setToken }) => {
   //   useEffect(() => {

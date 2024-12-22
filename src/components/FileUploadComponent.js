@@ -15,7 +15,7 @@ const uploadFile = async (token, file) => {
   );
 
   const res = await axios.post(
-    "https://www.googleapis.com/upload/drive/v3/files?uploadType=media&key=AIzaSyC1AXo6jsZPdlmg4x-oGwHfvN950ymwI6s&includePermissionsForView=published",
+    "https://www.googleapis.com/upload/drive/v3/files?uploadType=media&key=<=============apikey=======>&includePermissionsForView=published",
     form,
     {
       headers: {
